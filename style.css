@@ -1,0 +1,51 @@
+body {
+    background-repeat: no-repeat;
+    background: linear-gradient(#171717, #202020) fixed;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(224, 224, 224);
+}
+
+#wsinfo {
+    width: 64%;
+    margin-left: 18%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    width: 30%;
+    margin-left: 35%;
+    justify-content:space-around;
+    height: 4%;
+    margin-bottom: 1%;
+    align-items: center;
+}
+
+.row > p, .row > input {
+    width: 50%;
+    font-size: 1vw;
+}
+
+input {
+    background-color: #303030;
+    border: none;
+    color: white;
+    height: 100%;
+    text-align: center;
+}
+
+#copy {
+    font-size: 1.4vw;
+    background-color: #303030;
+    border: none;
+    color: white;
+    padding: 1vw;
+}
